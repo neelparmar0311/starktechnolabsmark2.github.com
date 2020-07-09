@@ -635,7 +635,7 @@ section.copyright p {
 
 section.copyright p a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 section.copyright p a:hover {
@@ -1604,6 +1604,12 @@ section.contact-us form button {
     }
     section.contact-w3ls iframe.googlemaps {
         height: 300px;
+    }
+    section.portfolio-w3ls .col-md-3.img-portfolio {
+        padding: 30px;
+    }
+    section.copyright p a {
+        display: block;
     }
 }
 
