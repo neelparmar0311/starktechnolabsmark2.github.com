@@ -13360,7 +13360,7 @@ a.navbar-brand span.fa {
         background: #1f242ccf;
         padding: 20px 20px;
         z-index: 10;
-        height: 100vh;
+        height: auto;
         backdrop-filter: blur(2px);
         -webkit-backdrop-filter: blur(2px);
         -moz-backdrop-filter: blur(2px);
@@ -13488,7 +13488,6 @@ a.navbar-brand span.fa {
     color: #ffffff;
     display: inline-block;
     line-height: 32px;
-    max-width: 750px;
 }
 
 .w3l-main-banner .banner-view {
@@ -15173,7 +15172,7 @@ span.sicon {
     color: #fff;
 }
 
-.w3l-open-block-services .open-description p {
+.navbar-collapse .w3l-open-block-services .open-description p {
     color: var(--para);
     font-size: 15px;
     line-height: 26px;
