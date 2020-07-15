@@ -863,11 +863,12 @@ a.callbacks_nav.callbacks2_nav.next {
 }
 
 .add_left ul li {
-    font-size: 14px;
+    font-size: 18px;
     color: #464646;
     font-family: 'Montserrat', sans-serif;
     line-height: 2em;
     list-style-type: none;
+    font-weight: 600;
 }
 
 .add_left ul li a {
@@ -962,7 +963,7 @@ a.callbacks_nav.callbacks2_nav.next {
 
 .copy_right p a {
     color: #B3B3B3;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -1914,10 +1915,6 @@ h2.resp-accordion {
     .contact iframe {
         height: 488px;
     }
-    .add_left ul li,
-    .copy_right p {
-        font-size: 13px;
-    }
     .footer_top ul li {
         font-size: 17px;
     }
@@ -2246,6 +2243,22 @@ h2.resp-accordion {
     .contact iframe {
         height: 403px;
     }
+    .bott-img .icon-holder {
+        top: 12px;
+    }
+    .bott-img .mission {
+        top: 0;
+        opacity: 1;
+    }
+    .bott-img .description {
+        margin: 10px auto;
+        opacity: 1;
+        -webkit-transition: inherit;
+        transition: inherit;
+        -webkit-transform: inherit;
+        -ms-transform: inherit;
+        transform: inherit;
+    }
 }
 
 @media (max-width: 667px) {
@@ -2377,11 +2390,12 @@ h2.resp-accordion {
         padding: 10px;
         text-align: center;
     }
-    .bottom-gds:nth-child(3), .bottom-gds:nth-child(4) {
-    margin-top: 0px;
+    .bottom-gds:nth-child(3),
+    .bottom-gds:nth-child(4) {
+        margin-top: 0px;
     }
-    .bottom-gds{
-    width:100%;
+    .bottom-gds {
+        width: 100%;
     }
 }
 

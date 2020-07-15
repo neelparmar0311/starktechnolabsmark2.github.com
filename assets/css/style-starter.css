@@ -14193,6 +14193,7 @@ section.w3l-grid-quote h3 {
 
 .w3l-footers-1 .footer-left p a {
     color: #ccc;
+    text-decoration: underline;
 }
 
 .w3l-footers-1 ul.social li {
