@@ -337,6 +337,10 @@ legend {
     white-space: normal;
 }
 
+.right-side {
+    float: right;
+}
+
 @media (max-width: 1200px) {
     legend {
         font-size: calc(1.275rem + 0.3vw);
@@ -14193,6 +14197,7 @@ section.w3l-grid-quote h3 {
 
 .w3l-footers-1 .footer-left p a {
     color: #ccc;
+    text-decoration: underline;
 }
 
 .w3l-footers-1 ul.social li {
